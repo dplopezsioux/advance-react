@@ -1,0 +1,53 @@
+{
+  "name": "advance-react",
+  "version": "1.0.0",
+  "description": "from Pluralsight",
+  "main": "index.js",
+  "scripts": {
+    "start": "webpack",
+    "pm2": "pm2 start --interpreter babel-node lib/server.js --watch",
+    "pm2-kill": "pm2 kill",
+    "test": "jest test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/dplopezsioux/advance-react.git"
+  },
+  "author": "daniel e perez",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/dplopezsioux/advance-react/issues"
+  },
+  "homepage": "https://github.com/dplopezsioux/advance-react#readme",
+  "dependencies": {
+    "@types/jest": "^27.0.2",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "pm2": "^5.1.2",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-hot-loader": "^4.13.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.15.8",
+    "@babel/node": "^7.15.8",
+    "@babel/preset-env": "^7.15.8",
+    "@babel/preset-react": "^7.14.5",
+    "@hot-loader/react-dom": "^17.0.1",
+    "babel-jest": "^27.3.1",
+    "babel-loader": "^8.2.2",
+    "css-loader": "^6.4.0",
+    "eslint": "^8.0.1",
+    "eslint-plugin-react": "^7.26.1",
+    "file-loader": "^6.2.0",
+    "jest": "^27.3.1",
+    "mini-css-extract-plugin": "^2.4.2",
+    "prettier": "^2.4.1",
+    "react-test-renderer": "^17.0.2",
+    "style-loader": "^3.3.0",
+    "url-loader": "^4.1.1",
+    "webpack": "^5.59.0",
+    "webpack-cli": "^4.9.1",
+    "webpack-dev-server": "^4.3.1"
+  }
+}

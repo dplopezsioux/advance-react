@@ -1,0 +1,29 @@
+{
+  "data": {
+    "articles": [
+      {
+        "id": "Leanne Graham",
+        "title": "Bret",
+        "date": "Sincere@april.biz",
+        "authorId": "hildegard.org",
+        "body": "Bret"
+      },
+      {
+        "id": "Graham",
+        "title": "Bret",
+        "date": "Sincere@april.biz",
+        "authorId": "hildegard.org",
+        "body": "Bret"
+      }
+    ],
+
+    "authors": [
+      {
+        "id": "hildegard.org",
+        "firstName": "Romaguera-Crona",
+        "lastName": "Multi-layered client-server neural-net",
+        "website": "harness real-time e-markets"
+      }
+    ]
+  }
+}
